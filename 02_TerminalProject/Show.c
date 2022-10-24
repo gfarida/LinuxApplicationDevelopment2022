@@ -167,6 +167,6 @@ int main(int argc, char **argv) {
     free(file_in_lines);
     free(all_file);
     
-    // endwin();
+    endwin();
     return 0;
 } 
